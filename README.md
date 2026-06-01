@@ -103,29 +103,3 @@ Lệnh này sẽ tự động khởi động đồng thời cả 2 cổng:
 - **Backend API**: Chạy tại địa chỉ **`http://localhost:5001/`** (Tự động chuyển tiếp qua proxy của client).
 
 *Lưu ý: Trong lần khởi chạy đầu tiên, hệ thống sẽ tự động tạo tệp cơ sở dữ liệu `server/cine_cinema.db` và nạp sẵn dữ liệu mẫu bao gồm phim, thể loại và lịch chiếu hoạt hình đáng yêu để bạn sẵn sàng trải nghiệm.*
-
----
-
-## ⚙️ Hướng Dẫn Upload Lên GitHub
-
-Để đẩy mã nguồn này lên kho lưu trữ cá nhân trên GitHub của bạn, hãy mở Terminal tại thư mục gốc và chạy các lệnh sau:
-
-```bash
-# 1. Khởi tạo Git
-git init
-
-# 2. Add tất cả các tệp (các tệp cấu hình trong .gitignore sẽ được tự động bỏ qua)
-git add .
-
-# 3. Ghi nhận commit đầu tiên
-git commit -m "feat: init cine ticket booking system with cute cozy pastel theme"
-
-# 4. Tạo nhánh chính
-git branch -M main
-
-# 5. Liên kết tới kho lưu trữ GitHub của bạn
-git remote add origin <URL_KHO_LƯU_TRỮ_GITHUB_CỦA_BẠN>
-
-# 6. Đẩy mã nguồn lên
-git push -u origin main
-```
